@@ -29,7 +29,7 @@ tag = soup.find_all(class_ = 'acalog-course')
 text = tag[1].span.text 
 
 credits_match = re.search(r"(\d+)\s*credits", text)
-credits = credits_match.group(1)
+class_credits = credits_match.group(1)
 
 
 name_match = re.search(r"^(.*?)(\d+\s*credits)", text)
@@ -37,15 +37,19 @@ name = name_match.group(1)
 stripped_name = name.replace(" ", "")
 
 code_match = re.match(r"^(.+?)-(.+)$", stripped_name )
-code = code_match.group(1)
+class_code = code_match.group(1)
 
-title_match = code_match.group(1)
-title = re.sub(r"([a-z])([A-Z])", r"\1 \2", code_match.group(2))
+class_name_match = code_match.group(1)
+class_name = re.sub(r"([a-z])([A-Z])", r"\1 \2", code_match.group(2))
 
 page_status()
-print("\n"+ code)
-print(title)
-print(credits+" credits" "\n")
+
+print(soup.h1.text)
+
+print("\n"+ class_code)
+print(class_name)
+print(class_credits+" credits" "\n")
+
 # print(credits)
 
 
