@@ -61,3 +61,8 @@ After scraping HTML tags, such as “<a> CSC 234 - Software Security</a> “3 Cr
 
 
 ![image](https://user-images.githubusercontent.com/117784062/218905634-859d71fc-b7b8-47ab-b40d-be22757d6c9c.png)
+
+
+This program become a very comprehensive software with an anticipated object oriented design, meaning the data structures as well as the web scraping functions will be expandable as well as compatible with other schools websites and relevant data. 
+
+Further code and documentation will be released very soon.
