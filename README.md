@@ -60,10 +60,4 @@ After scraping HTML tags, such as “<a> CSC 234 - Software Security</a> “3 Cr
 
 
 
-
-![image](https://user-images.githubusercontent.com/117784062/218905326-a9975b9e-c326-40b0-895b-ef8fdd7ff04b.png)
-
-
-![image](https://user-images.githubusercontent.com/117784062/218905390-d0d95a62-0756-4a2a-96b9-cef15038e8d0.png)
-
-
+![image](https://user-images.githubusercontent.com/117784062/218905634-859d71fc-b7b8-47ab-b40d-be22757d6c9c.png)
