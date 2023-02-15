@@ -1,8 +1,7 @@
 Scholarwise 
 
 The current main.py is the first bit of code I wrote for this program as an example. There is much more which 
-will be released as well as extensive documentation. There are no comments in the example code but you will 
-undertand it upon further reading of this file. 
+will be released as well as extensive documentation. I have just added detailed comments explaining each line of code.
 
 Here are bits and pieces from several documentation files, as well as an explanation from a resume of mine. The 
 following descriptions will be disorganized and uncomplete, but you will get the idea.
@@ -20,7 +19,7 @@ definitions:
 
 
 https://catalog.dsu.edu/preview_program.php?catoid=35&poid=2669&returnto=1625
-                                                           ^^^^  
+                                                          
 This sample url is the first web page in a list which starts at 2669 and ends at 2787, for
 a total of 118 pages that describe each entity, which I defined above. This exact url describes 
 the Digital Art Design Bachelor Degree, with continued web pages
